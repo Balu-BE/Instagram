@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Instagram Login</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        #main{
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+            flex-wrap:wrap-reverse;
+            margin-left:200px;
+        }
+        #form{
+            width: 340px;
+            margin-left: 50px;
+
+        }
+        #title{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        #top{
+            align-items: center;
+            border: 1px solid rgba(128, 128, 128, 0.658);
+        }
+        #input{
+            margin-top: 40px;
+        }
+        .input{
+          padding: 7.6px; 
+          margin-left: 35px;
+          margin-top: 6px;
+          width: 74%;
+          border-radius: 2px;
+          border:1px solid rgba(128, 128, 128, 0.582);
+          background-color: rgba(226, 226, 226, 0.205);
+          font-size: 11.5px;
+        }
+        #submit{
+            background-color: #046cfdc4;
+            outline: none;
+            width: 80%;
+            border-radius: 9px;
+            height: 30px;
+            color: white;
+            font-weight: 200;
+            border: none;
+            margin-top: 15px;
+            font-weight: 400;
+        }
+        .line-text {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #555;
+            font-size: 14px;
+            margin: 20px 0;
+        }
+        .line-text::before,
+        .line-text::after {
+            content: "";
+            flex: 1;
+            border-bottom: 1px solid #ccc;
+            margin: 0 30px;
+            margin-left: 35px;
+        }
+        #login a{
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            text-decoration: none;
+            
+        }
+        #log-fac{
+            color:blue;
+            font-weight: 500;
+            
+        }
+        #log-fac i{
+            margin-right: 6px;
+        }
+        #forgot{
+            font-size: 13px;
+            color: black;
+            margin-bottom: 15px;
+        }
+        #middle{
+            border: 1px solid rgba(128, 128, 128, 0.658);
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+            padding: 16px;
+        }
+        #middle a {
+            text-decoration: none;
+            color:#0867ff;
+        }
+        #bottom{
+            display: flex;
+            justify-content: center;
+            font-weight: 400;
+        }
+        #get{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+       .link-img{
+        width: 100%;
+        height: 35px;
+        margin-top: 15px;
+       }
+       .images img{
+        height:550px;
+       }
+       
+    </style>
+</head>
+<body>
+<div id="main">
+    <div class="images"><img src="/MEDIA/IMAGES/instaBg.png" id="img-1"></div>
+    <div id="images">
+    </div>
+    <div id="form">
+        
+        <div id="top">
+            <div id="title">
+                <img src="/MEDIA/IMAGES/title.png" alt="">
+            </div>
+           <div id="input">
+            <input type="text" name="" id="" class="input" placeholder="Phone number, username, or email">
+            <input type="password"name="" id="" class="input" placeholder="password">
+            <input type="submit" value="Log in" name="" id="submit"  class="input">
+           </div> 
+        <div id="or">
+            <div class="line-text">OR</div>
+        </div>
+        <div id="login">
+            <a href="" class="middle" id="log-fac"><i class="fa-brands fa-square-facebook" ></i>Log in with Facebook</a>
+            <a href="" class="middle" id="forgot">Forgot password?</a>
+        </div>
+    </div> 
+        <div id="middle">
+            <p>Don't have an account? <a href="https://www.instagram.com/">Sign up</a></p>
+        </div>
+        <p id="get">Get the app.</p>
+          <div id="bottom">
+            <a href=""><img src="/MEDIA/IMAGES/gplay.jpg"  class="link-img"></a>
+            <a href=""><img src="/MEDIA/IMAGES/microsoft.jpg" class="link-img"></a>
+          </div>  
+           
+                    
+    </div>
+  </div>  
+</body>
+</html>
